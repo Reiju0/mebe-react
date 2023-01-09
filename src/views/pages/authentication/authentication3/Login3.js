@@ -46,14 +46,7 @@ const Login = () => {
                                                         gutterBottom
                                                         variant={matchDownSM ? 'h3' : 'h2'}
                                                     >
-                                                        Hi, Welcome Back
-                                                    </Typography>
-                                                    <Typography
-                                                        variant="caption"
-                                                        fontSize="16px"
-                                                        textAlign={matchDownSM ? 'center' : 'inherit'}
-                                                    >
-                                                        Enter your credentials to continue
+                                                        Login Page
                                                     </Typography>
                                                 </Stack>
                                             </Grid>
@@ -66,7 +59,7 @@ const Login = () => {
                                         <Divider />
                                     </Grid>
                                     <Grid item xs={12}>
-                                        <Grid item container direction="column" alignItems="center" xs={12}>
+                                        {/* <Grid item container direction="column" alignItems="center" xs={12}>
                                             <Typography
                                                 component={Link}
                                                 to="/pages/register/register3"
@@ -75,7 +68,7 @@ const Login = () => {
                                             >
                                                 Don&apos;t have an account?
                                             </Typography>
-                                        </Grid>
+                                        </Grid> */}
                                     </Grid>
                                 </Grid>
                             </AuthCardWrapper>
